@@ -10,8 +10,8 @@ package server
 
 import "core:fmt"
 import "core:log"
-import "core:odin/ast"
-import "core:odin/tokenizer"
+import "odin_parser:ast"
+import "odin_parser:tokenizer"
 import "core:unicode/utf8"
 
 import "src:common"
@@ -500,7 +500,7 @@ visit_import_decl :: proc(decl: ^ast.Import_Decl, builder: ^SemanticTokenBuilder
 	        ^^^
 	import "core:fmt"
 	             ^^^
-	import "core:odin/ast"
+	import "odin_parser:ast"
 	                  ^^^
 	import foo "core:fmt"
 	       ^^^

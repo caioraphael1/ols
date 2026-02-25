@@ -2,8 +2,8 @@ package odin_format
 
 import "core:encoding/json"
 import "core:fmt"
-import "core:odin/ast"
-import "core:odin/parser"
+import "odin_parser:ast"
+import "odin_parser:parser"
 import "core:os"
 import "core:path/filepath"
 import "src:odin/printer"

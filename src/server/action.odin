@@ -2,7 +2,7 @@ package server
 
 import "core:fmt"
 import "core:log"
-import "core:odin/ast"
+import "odin_parser:ast"
 import path "core:path/slashpath"
 import "core:strings"
 

@@ -1,7 +1,7 @@
 package server
 
 import "core:fmt"
-import "core:odin/ast"
+import "odin_parser:ast"
 import "core:strconv"
 
 // Attempts to resolve the type of the builtin proc by following the rules of the odin type checker

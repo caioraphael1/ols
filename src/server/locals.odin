@@ -2,7 +2,7 @@
 package server
 
 import "core:log"
-import "core:odin/ast"
+import "odin_parser:ast"
 
 LocalFlag :: enum {
 	Mutable, // or constant
