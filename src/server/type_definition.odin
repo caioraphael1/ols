@@ -3,7 +3,7 @@ package server
 import "core:fmt"
 import "core:log"
 import "core:mem"
-import "core:odin/ast"
+import "odin_parser:ast"
 import "core:strings"
 
 import "src:common"

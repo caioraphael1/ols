@@ -3,7 +3,7 @@ package server
 
 import "base:runtime"
 import "core:fmt"
-import "core:odin/ast"
+import "odin_parser:ast"
 import "core:strconv"
 
 import "src:common"

@@ -1,8 +1,8 @@
 package odin_printer
 
 import "core:mem"
-import "core:odin/ast"
-import "core:odin/tokenizer"
+import "odin_parser:ast"
+import "odin_parser:tokenizer"
 import "core:slice"
 import "core:strings"
 

@@ -1,6 +1,6 @@
 package server
 
-import "core:odin/ast"
+import "odin_parser:ast"
 
 
 import "src:common"

@@ -3,8 +3,8 @@
 package server
 
 import "core:fmt"
-import "core:odin/ast"
-import "core:odin/tokenizer"
+import "odin_parser:ast"
+import "odin_parser:tokenizer"
 import "core:strings"
 
 import "src:common"

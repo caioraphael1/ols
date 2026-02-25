@@ -3,8 +3,8 @@ package server
 
 import "core:fmt"
 import "core:mem"
-import "core:odin/ast"
-import "core:odin/parser"
+import "odin_parser:ast"
+import "odin_parser:parser"
 import path "core:path/slashpath"
 import "core:strings"
 import "core:log"

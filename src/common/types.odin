@@ -1,7 +1,7 @@
 package common
 
-import "core:odin/ast"
-import "core:odin/tokenizer"
+import "odin_parser:ast"
+import "odin_parser:tokenizer"
 
 Error :: enum {
 	None                 = 0,

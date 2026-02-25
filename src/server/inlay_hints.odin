@@ -3,7 +3,7 @@ package server
 import "core:strings"
 import "core:fmt"
 import "core:log"
-import "core:odin/ast"
+import "odin_parser:ast"
 
 import "src:common"
 

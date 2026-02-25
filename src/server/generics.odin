@@ -1,7 +1,7 @@
 package server
 
-import "core:odin/ast"
-import "core:odin/tokenizer"
+import "odin_parser:ast"
+import "odin_parser:tokenizer"
 import "core:reflect"
 
 import "src:common"
