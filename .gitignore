@@ -16,7 +16,6 @@
 /ols
 /odinfmt
 tests/tests
-ols.json
 .vscode/
 deno.lock
 *.dSYM/

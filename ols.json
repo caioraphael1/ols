@@ -1,0 +1,76 @@
+{
+    "$schema": "https://raw.githubusercontent.com/DanielGavin/ols/master/misc/ols.schema.json",
+
+    // Setup
+    // "odin_command": "",
+    // "odin_root_override": "",
+
+    // Profiles
+    // "profile": "default",
+    // "profiles": [
+    //     { "name": "default", "checker_path": ["src"], "defines": { "ODIN_DEBUG": "false" }},
+    //     { "name": "linux_profile", "os": "linux", "checker_path": ["src/main.odin"], "defines": { "ODIN_DEBUG": "false" }},
+    //     { "name": "mac_profile", "os": "darwin", "arch": "arm64", "defines": { "ODIN_DEBUG": "false" }},
+    //     { "name": "windows_profile", "os": "windows", "checker_path": ["src"], "defines": { "ODIN_DEBUG": "false" }}
+    // ]
+
+    // Collections
+    "collections": [
+        { "name": "shared", "path": "C:/Users/caior/Desktop/Projetos_Odin/shared" }
+    ],
+    
+    // Inlay
+    "enable_hover":                       false,
+    "enable_inlay_hints":                 false,
+    "enable_inlay_hints_params":          false,
+    "enable_inlay_hints_default_params":  false,
+    "enable_inlay_hints_implicit_return": false,
+
+    // Check
+    "checker_args": "-vet-shadowing -vet-semicolon -vet-unused-variables -vet-unused",
+    "verbose": false, // Logs warnings instead of just errors
+    "file_log": false,
+    "enable_checker_workspace_diagnostics": false, // Turns on running all workspace diagnostics using odin check. Experimental.
+    "disable_parser_errors": true,
+    // "checker_skip_packages": [],
+
+    // Formatting
+    "enable_format": false,
+
+    // Highlight
+    "enable_semantic_tokens":                  true, // syntax highlighting.
+    "enable_document_highlights":              false, // highlighting of symbol references in file.
+    "enable_comp_lit_signature_help":          false,
+    "enable_comp_lit_signature_help_use_docs": false,
+
+    // Completion
+    "enable_document_symbols":      false, // Outline of all your global declarations in your document.
+    "enable_completion_matching":   false, // Match types and pointers when passing arguments to procedures. 
+    "enable_fake_methods":          false, // Fake methods completion. Experimental.
+    "struct_fields_underscore_visibility": "",
+    
+    // Automation
+    "enable_auto_import":           false,
+    "enable_code_action_invert_if": false,
+
+    // Source
+    "enable_references":            false, // Finding references for a symbol. Experimental.
+    "enable_overload_resolution":   false,
+
+    // Save
+    "enable_checker_only_saved":    false,
+
+    // Snippets
+    "enable_procedure_snippet":     false,
+    "enable_snippets":              false,
+
+    // Context
+    "enable_procedure_context":     false,
+
+
+    // Threads
+    // "thread_pool_count":
+
+    // Docs
+    "enable_document_links":        false,
+}
